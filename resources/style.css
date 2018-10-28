@@ -1,0 +1,322 @@
+html {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  margin: auto;
+}
+
+/*banner*/
+nav {
+  height: 64px;
+  padding: 10px 24px;
+  color: #383838;
+}
+
+nav .container {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 2.75rem;
+}
+
+.logo span {
+  font-size: 1.25rem;
+}
+
+.logo.colmar {
+  font-weight: bold;
+}
+
+.academy {
+  color: gray;
+}
+
+.menus ul {
+  position: absolute;
+  right: 0px;
+}
+.menus ul li {
+  display: inline-block;
+  margin-left: 16px;
+  font-size: 1.25rem;
+}
+
+/*-main-banner-section-*/
+
+.banner {
+  background-color: lightgrey;
+  margin: 0 auto;
+}
+
+.banner .container {
+  display: flex;
+  justify-content: space-betwen;
+  align-items: center;
+}
+
+.container {
+  min-width: 1050px;
+  margin: auto;
+}
+
+.left-section {
+  padding: 32px 24px;
+  width: 60%;
+}
+
+.left-section img {
+  width: 100%;
+  justify-content: center;
+}
+
+.right-section {
+  width: 30%;
+  padding-right: 24px;
+}
+
+.tagline {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tagline h2 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.tagline h5 {
+  font-size: 1.2rem;
+}
+
+.tagline span {
+  background-color: #383838;
+  color: white;
+  font-size: 1.2rem;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: center;
+}
+
+/*About*/
+.about.container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.left-section {
+  width: 60%;
+  padding: 32px 8px;
+}
+
+.main-news {
+  line-height: 1.4;
+  padding-bottom: 32px;
+}
+
+.main-news h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  padding-bottom: 24px;
+}
+
+.main-news p {
+  font-size: 1.1rem;
+}
+
+.right-section {
+  width: 40%;
+}
+
+.about .right-section {
+  border-left: 1px dotted lightgrey;
+}
+
+.about .item {
+  border-bottom: 1px dotted lightgrey;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.item img {
+  width: 35%;
+  height: 30%;
+  padding: 16px 16px;
+}
+
+.content {
+  width: 65%;
+  line-height: 0.8;
+  height: 30%
+  padding-right: 5px;
+}
+
+.content .title {
+  font-size: 1.50rem;
+  font-weight: bold;
+  color: #383838;
+}
+
+.content .sub {
+  font-size: 1.2 rem;
+  color: gray;
+  line-height: 1.4;
+}
+
+.content a {
+  color: #4ba3f4
+  font-size: 14px;
+  padding-top: 0.8rem;
+}
+
+.third.item {
+  background-color: lightgrey;
+}
+
+/*- Start Learning Section -*/
+.learning {
+  background-color: lightgrey;
+  padding: 32px 72px;
+}
+
+.headline {
+  font-weight: bold;
+  text-align: center;
+  font-size: 2.5rem;
+  padding-bottom: 24px;
+}
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.course {
+  width: 30%;
+  height: 22rem;
+  background-color: white;
+  margin-bottom: 25px;
+}
+
+.course-image img {
+  height: auto;
+  width: 100%;
+}
+
+.course-content {
+  padding: 16px;
+}
+
+.course-content span {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.course-content p {
+  color: darkgrey;
+  font-size: 1.0rem;
+}
+
+.course-content .subject {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/*-thesis container-*/
+
+.thesis {
+  padding: 32px 24px;
+}
+
+.thesis .headline {
+  padding-bottom: 32px;
+}
+
+.entire-section {
+  display: flex;
+  width: 100%;
+  line-height: 1.4rem;
+  justify-content: space-between;
+}
+
+.entire-section .left-section {
+  width: 60%;
+  padding-right: 24px;
+}
+
+video {
+  width: 100%;
+  padding-bottom: 24px;
+}
+
+.entire-section .right-section {
+  flex-direction: column;
+  width: 40%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.thesis.item {
+  padding: 16px;
+}
+
+.thesis span {
+  font-weight: bold;
+  font-size: 1.4rem;
+  padding-bottom: 8px;
+}
+
+.thesis p {
+  font-size: 1.1rem;
+}
+
+.thesis.first {
+  background-color: lightgrey;
+}
+
+.thesis img {
+  width: 35%;
+  height: auto;
+  padding-right: 16px;
+}
+
+.thesis .content {
+  width: 65%;
+}
+
+/*-footer-*/
+
+footer {
+  border-top: 1px solid lightgrey;
+  padding: 16px 24px;
+  color: darkgrey;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li {
+  display: inline-block;
+  padding-left: 10px;
+}
