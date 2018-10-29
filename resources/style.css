@@ -51,6 +51,20 @@ nav .container {
   font-size: 1.25rem;
 }
 
+nav .mobile {
+  display: none;
+}
+
+@media only and screen and (max-width: 480px) {
+  nav .mobile {
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+  }
+}
+
 /*-main-banner-section-*/
 
 .banner {
@@ -107,6 +121,12 @@ nav .container {
   padding-top: 16px;
   padding-bottom: 16px;
   text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+  .banner {
+    flex-direction: row;
+  }
 }
 
 /*About*/
