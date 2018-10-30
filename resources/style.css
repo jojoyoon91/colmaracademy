@@ -61,7 +61,8 @@ nav .mobile {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: auto;
+    padding-right: 24px;
+    padding-left: 24px;
   }
 }
 
@@ -122,6 +123,7 @@ nav .mobile {
   padding-bottom: 16px;
   text-align: center;
 }
+
 
 @media only screen and (max-width: 480px) {
   .banner {
